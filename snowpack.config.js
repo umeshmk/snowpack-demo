@@ -4,9 +4,17 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 
 module.exports = {
-  // plugins: [],
+  plugins: [
+    "@snowpack/plugin-vue",
+    "@snowpack/plugin-dotenv",
+    "@snowpack/plugin-sass",
+  ],
+  mount: {
+    public: "/",
+    src: "/_dist_", // "./src" is mounted to "/_dist_/*"
+  },
+  devOptions: { port: 8081, open: "none" },
   // installOptions: {},
-  // devOptions: {},
   // buildOptions: {},
   // proxy: {},
   // mount: {},
