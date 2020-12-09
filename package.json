@@ -1,0 +1,19 @@
+{
+  "name": "snowpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "init": "snowpack init"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^2.18.2"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.3.2"
+  }
+}

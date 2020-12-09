@@ -1,0 +1,69 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "window.zoomLevel": 1,
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons",
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
+    "workbench.colorTheme": "GitHub Dark",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "files.exclude": {
+      "**/.git": true,
+      "**/node_modules": true,
+    },
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    // "files.autoSaveDelay": 3000
+  },
+  "extensions": {
+    "recommendations": [
+      "VisualStudioExptTeam.vscodeintellicode",
+      "GitHub.github-vscode-theme",
+      "vscode-icons-team.vscode-icons",
+      "esbenp.prettier-vscode",
+      "christian-kohler.path-intellisense",
+      "coenraads.bracket-pair-colorizer-2",
+      "oderwat.indent-rainbow",
+      "aaron-bond.better-comments",
+      
+  "ritwickdey.liveserver",
+  "ecmel.vscode-html-css",
+  "formulahendry.auto-rename-tag",
+      "austenc.laravel-blade-spacer",
+      "formulahendry.auto-rename-tag",
+      "sysoev.language-stylus",
+      "bradlc.vscode-tailwindcss",
+      // "DavidAnson.vscode-markdownlint",
+      // "yzhang.markdown-all-in-one",
+      // "shd101wyy.markdown-preview-enhanced",
+      // "ms-vscode.Theme-MarkdownKit",
+  
+      "dbaeumer.vscode-eslint",
+      "eg2.vscode-npm-script",
+      "christian-kohler.npm-intellisense",
+      "xabikos.JavaScriptSnippets",
+      // "jasonnutter.search-node-modules",
+      // "chakrounanas.turbo-console-log",
+      "octref.vetur",
+      // "dsznajder.es7-react-js-snippets",
+      // "msjsdiag.debugger-for-chrome"
+    ]
+  }
+
+  
+
+  
